@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">  <meta charset="utf-8">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07162f">
   <meta name="description" content="Explore NASA Astronomy Picture of the Day images.">
@@ -33,7 +35,7 @@
 
       <div id="gallery" class="gallery" aria-live="polite">
         <div class="placeholder">
-          <div class="placeholder-icon">🔭</div>
+          <div class="placeholder-icon" aria-hidden="true">🔭</div>
           <p>Select a date range and explore the cosmos.</p>
         </div>
       </div>
@@ -45,7 +47,7 @@
     </section>
   </div>
 
-  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-label="Space image details">
     <div class="modal-content">
       <button id="modal-close" class="modal-close" type="button" aria-label="Close modal">&times;</button>
       <div id="modal-body"></div>
@@ -61,6 +63,5 @@
   <script src="js/dateRange.js"></script>
   <script src="js/script.js"></script>
   <script src="pwa.js"></script>
-
 </body>
 </html>
