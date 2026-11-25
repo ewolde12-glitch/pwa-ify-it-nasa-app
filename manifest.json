@@ -1,0 +1,25 @@
+{
+  "name": "NASA APOD Explorer",
+  "short_name": "NASA Explorer",
+  "description": "Explore NASA Astronomy Picture of the Day images.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07162f",
+  "theme_color": "#07162f",
+  "icons": [
+    {
+      "src": "img/nasa-worm-logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
